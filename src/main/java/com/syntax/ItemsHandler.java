@@ -23,8 +23,8 @@ public class ItemsHandler {
         json.addProperty("pageSize", 4);
         json.addProperty("pageNumber", 1);
 
-        ItemsHandler bk = new ItemsHandler();
-        System.out.println(bk.navigate(json));
+        ItemsHandler handler = new ItemsHandler();
+        System.out.println(handler.navigate(json));
     }
 
     public String navigate(JsonObject req) {
